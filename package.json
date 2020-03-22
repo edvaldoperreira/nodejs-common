@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-common",
+  "version": "1.0.0",
+  "description": "Project created to study language",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edvaldoperreira/nodejs-common.git"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "javascript",
+    "js",
+    "common"
+  ],
+  "author": "Edvaldo Perreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edvaldoperreira/nodejs-common/issues"
+  },
+  "homepage": "https://github.com/edvaldoperreira/nodejs-common#readme"
+}
