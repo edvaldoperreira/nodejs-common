@@ -6,8 +6,8 @@ ArticleDAO.prototype.getNews = function (callback) {
 	this._connection.query('select * from news', callback);
 }
 
-ArticleDAO.prototype.getArticle = function (callback) {
-	this._connection.query('select * from news where id = 1', callback);
+ArticleDAO.prototype.getArticle = function (id, callback) {
+	this._connection.query('select * from news where id = ?', id, callback);
 }
 
 ArticleDAO.prototype.addArticle = function (article, callback) {
